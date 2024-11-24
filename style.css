@@ -1004,11 +1004,11 @@
     height: 300px;
     display: flex;
     justify-content: space-between;
-    margin-bottom: 60px;
+    margin-bottom: 50px;
     /* border: 1px solid blue; */
 }
 .footer-logo {
-    width: 280px;
+    width: 240px;
     height: 220px;
     /* border: 1px solid green; */
 }
