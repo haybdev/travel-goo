@@ -1010,7 +1010,7 @@
 .footer-logo {
     width: 200px;
     height: 220px;
-    border: 1px solid green;
+    /* border: 1px solid green; */
 }
 .footer-logo img{
     margin-left: 55px;
