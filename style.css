@@ -55,6 +55,9 @@
     align-items: center;
     justify-content: space-between;
 }
+.nav-button{
+    display: none;
+}
 .imagination{
     width: 700px;
     height: 300px;
@@ -1068,4 +1071,292 @@
     font-size: 14px;
     font-weight: 400px;
     padding: 20px;
+}
+
+
+
+@media (max-width: 600px){
+    .container{
+        width: 100%;
+        padding: 5px 5px;
+    }
+    .hero-container{
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 10px;
+    }
+    .nav{
+        display: none;
+    }
+    .profile{
+        display: none;
+    }
+    .nav-button{
+        display: flex;
+    }
+    .imagination{
+        width: 350px;
+        height: 170px;
+        margin: 200px auto;
+    }
+    .imagination h2{
+        width: 300px;
+        height: 70px;
+        font-size: 32px;
+    }
+    .imagination p{
+        width: 250px;
+        height: 50px;
+        color: #ffffff;
+        font-size: 12px;
+        text-align: center;
+        margin: 40px auto;
+    }
+    .imagination-button{
+        width: 70px;
+        height: 35px;
+        margin: 40px auto;
+    }
+    .imagination-button button{
+        margin-left: -40px;
+    }
+    .hero{
+        width: 100%;
+        height: fit-content;
+        padding: 5px 5px;
+    }
+    .os{
+        width: 100%;
+        height: fit-content;
+    }
+    .hero-content{
+        width: 100%;
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        margin: 0px auto;
+        gap: 20px;
+        padding: 5px 5px;
+    }
+    .content1{
+        width: 100%;
+        height: fit-content;
+        padding: 10px 10px;
+    }
+    .content2{
+        width: 100%;
+        height: fit-content;
+        padding: 10px 10px;
+    }
+    .content3{
+        width: 100%;
+        height: fit-content;
+        padding: 10px 10px;
+    }
+    .map1{
+        width: 100%;
+        height: fit-content;
+        padding: 5px 5px;
+    }
+    .map-content{
+        width: 100%;
+        height: fit-content;
+    }
+    .map-content-head{
+        width: 100%;
+        height: fit-content;
+        font-size: 9px;
+        padding: 10px;
+    }
+    .map-content-p{
+        width: 100%;
+        height: fit-content;
+        font-size: 12px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .map-icon{
+        width: 100%;
+        height: fit-content;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 10px 10px;
+        gap: 20px;
+    }
+    .destination{
+        width: 100%;
+        height: fit-content;
+        padding: 5px 5px;
+        /* border: 1px solid green; */
+    }
+    .destination-header{
+        width: 100%;
+        height: fit-content;
+        margin-bottom: 20px;
+    }
+    .destination-content{
+        width: 100%;
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+    }
+    .destination-content1{
+        display: none;
+    }
+    .destination-content2{
+        width: 100%;
+        height: fit-content;
+        padding: 10px 10px;
+    }
+    .destination-content2-1{
+        width: 100%;
+        height: 100px;
+    }
+    .destination-content2-2{
+        width: 100%;
+        height: 100px;
+    }
+    .destination-content2-3{
+        width: 100%;
+        height: 100px;
+    }
+    .package-wrap{
+        width: 100%;
+        height: fit-content;
+        padding: 5px 5px;
+    }
+    .package-wrap-box{
+        justify-content: space-between;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+        width: 100%;
+        height: fit-content;
+        padding: 20px 0px;
+    }
+    .package-cards-wrap{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: fit-content;
+        gap: 10px;
+        padding: 0px;
+    }
+    .package-card1{
+        width: 100%;
+        height: 350px;
+    }
+    .package-card2{
+        width: 100%;
+        height: 350px;
+    }
+    .package-card3{
+        width: 100%;
+        height: 350px;
+    }
+    .packackage-button-wrap{
+        width: 100%;
+        height: fit-content;
+        margin: 20px auto;
+    }
+    .booking-wrap{
+        width: 100%;
+        height: fit-content;
+        padding: 5px 5px;
+    }
+    .booking-head{
+        width: 100%;
+        height: fit-content;
+    }
+    .booking-head h2{
+        font-size: 15px;
+        padding: 20px;
+    }
+    .booking-head p{
+        margin-top: 0px;
+    }
+    .book-card-wrap{
+        width: 100%;
+        height: fit-content;
+        flex-direction: column;
+    }
+    .booking-content{
+        width: 100%;
+        height: fit-content;
+    }
+    .choose-destination{
+        width: 100%;
+        height: fit-content;
+        margin-bottom: 60px;
+        gap: 20px;
+    }
+    .make-payment{
+        width: 100%;
+        height: fit-content;
+        margin-bottom: 60px;
+        gap: 20px;
+    }
+    .reach{
+        width: 100%;
+        height: fit-content;
+        margin-bottom: 60px;
+        gap: 20px;
+    }
+    .booking-card{
+        width: 100%;
+    }
+    .trip-to-rome{
+        display: none;
+    }
+    .about-card{
+        display: none;
+    }
+    .footer{
+        width: 100%;
+        height: fit-content;
+        padding: 5px 5px;
+    }
+    .subscibe-to{
+        width: 100%;
+        height: fit-content;
+        padding: 5px 0px;
+        border-top-left-radius: 60px;
+    }
+    .subscibe-to p{
+        width: 100%;
+        height: fit-content;
+        margin: 0px auto;
+        font-size: 16px;
+        /* margin-bottom: 0px; */
+        padding: 0px auto;
+    }
+    .subscribe-to-button{
+        width: 340px;
+        height: 40px;
+        display: flex;
+        gap: 10px;
+        /* margin: 60px auto; */
+        display: flex;
+    
+    }
+    .subscibe-to-input{
+        width: 80px;
+        height: fit-content;
+    }
+    .footer-nav{
+        width: 100%;
+        height: fit-content;
+        flex-wrap: wrap;
+        padding: 5px 5px;
+    }
+    .footer-logo {
+        width: 100%;
+        height: 200px;
+        padding: 0px 20px;
+    }
+    .footer-logo p{
+        width: 250px;
+        font-size: 18px;
+    }
 }
