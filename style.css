@@ -1076,8 +1076,14 @@
 
 
 @media (max-width: 600px){
+    body{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
     .container{
         width: 100%;
+        height: fit-content;
         padding: 5px 5px;
     }
     .hero-container{
